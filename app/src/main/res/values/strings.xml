@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Projeto Bio</string>
+
+    <string name="navigation_drawer_open">Abrir drawer de navegação</string>
+    <string name="navigation_drawer_close">Fechar drawer de navegção</string>
+
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_familia_atividade">Familia Atividade</string>
+    <string name="title_activity_foto_atividade">Foto Atividade</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Fragmento em branco</string>
+    <string name="title_activity_pesquisa_atividade">Pesquisa Atividade</string>
+</resources>
