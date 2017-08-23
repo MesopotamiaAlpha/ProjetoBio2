@@ -11,4 +11,13 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Fragmento em branco</string>
     <string name="title_activity_pesquisa_atividade">Pesquisa Atividade</string>
+    <string name="folhas_opostas_ou_verticiladas_corola_zigomorfa_estilete_terminal_estames_n_o_inclusos_um_ou_dois_estigmas_sementes_n_o_aladas_ov_rio_uni_ou_bilocular_at_quatro_vulos_no_ov_rio">→ Folhas opostas ou verticiladas. → Corola zigomorfa. → Estilete Terminal. → Estames não inclusos. → Um ou dois estigmas. → Sementes não aladas. → Ovário Uni ou Bilocular. → Até quatro óvulos no ovário.</string>
+    <string name="acanthaceae">Acanthaceae</string>
+    <string name="esp_cie">Espécie:</string>
+    <string name="familia">Familia:</string>
+    <string name="magnoliopsida_flores_diclam_deas_simp_talas_ov_rio_s_pero_isost_mone_folhas_opostas_verticiladas_rosuladas_reduzidas_a_escamas_ou_ausentes">Magnoliopsida: Flores diclamídeas, simpétalas, ovário súpero, isostêmone, folhas opostas, verticiladas, rosuladas, reduzidas a escamas ou ausentes.</string>
+    <string name="manto_de_rei">Manto de Rei</string>
+    <string name="nome_popular">Nome popular:</string>
+    <string name="thunbergia_erecta">Thunbergia erecta</string>
+    <string name="voltar">Voltar</string>
 </resources>

@@ -10,11 +10,4 @@
     tools:showIn="@layout/activity_familia_atividade">
 
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView2"
-        android:layout_alignParentEnd="true"
-
-        android:layout_alignParentStart="true" />
 </RelativeLayout>

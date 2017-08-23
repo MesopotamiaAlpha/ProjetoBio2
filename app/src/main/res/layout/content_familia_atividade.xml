@@ -16,7 +16,11 @@
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/scrollView" >
+        android:id="@+id/scrollView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        tools:ignore="UselessParent">
 
         <RelativeLayout
             xmlns:android="http://schemas.android.com/apk/res/android"
@@ -37,30 +41,31 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Manto de Rei"
+                android:text="@string/manto_de_rei"
                 android:id="@+id/textView5"
-                android:singleLine="false"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textStyle="italic"
                 android:layout_alignParentTop="true"
-                android:layout_alignEnd="@+id/textView9" />
+                android:layout_alignEnd="@+id/textView9"
+                android:maxLines="1" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Nome popular:"
+                android:text="@string/nome_popular"
                 android:id="@+id/textView4"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textStyle="bold|normal"
                 android:shadowColor="@color/abc_input_method_navigation_guard"
                 android:layout_alignParentTop="true"
-                android:layout_alignStart="@+id/textView3" />
+                android:layout_alignStart="@+id/textView3"
+                tools:ignore="PrivateResource" />
 
             <Button
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Voltar"
+                android:text="@string/voltar"
                 android:id="@+id/btnVoltar"
                 android:layout_marginBottom="60dp"
                 android:layout_alignParentBottom="true"
@@ -69,62 +74,57 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Espécie:"
+                android:text="@string/esp_cie"
                 android:id="@+id/textView6"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textStyle="bold|normal"
                 android:shadowColor="@color/abc_input_method_navigation_guard"
                 android:layout_below="@+id/textView4"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                tools:ignore="PrivateResource" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Thunbergia erecta"
+                android:text="@string/thunbergia_erecta"
                 android:id="@+id/lblEspecie"
-                android:singleLine="false"
-                android:textSize="20dp"
+                android:textSize="20sp"
 
                 android:layout_below="@+id/textView5"
-                android:layout_alignParentEnd="true" />
+                android:layout_alignParentEnd="true"
+                android:maxLines="1" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Familia:"
+                android:text="@string/familia"
                 android:id="@+id/textView8"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textStyle="bold|normal"
                 android:shadowColor="@color/abc_input_method_navigation_guard"
                 android:layout_below="@+id/textView6"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                tools:ignore="PrivateResource" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Acanthaceae"
+                android:text="@string/acanthaceae"
                 android:id="@+id/textView9"
-                android:singleLine="false"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:layout_below="@+id/lblEspecie"
-                android:layout_toEndOf="@+id/textView4" />
+                android:layout_toEndOf="@+id/textView4"
+                android:maxLines="1" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="        → Folhas opostas ou verticiladas.
-        → Corola zigomorfa.
-        → Estilete Terminal.
-        → Estames não inclusos.
-        → Um ou dois estigmas.
-        → Sementes não aladas.
-        → Ovário Uni ou Bilocular.
-        → Até quatro óvulos no ovário."
+                android:text="@string/folhas_opostas_ou_verticiladas_corola_zigomorfa_estilete_terminal_estames_n_o_inclusos_um_ou_dois_estigmas_sementes_n_o_aladas_ov_rio_uni_ou_bilocular_at_quatro_vulos_no_ov_rio"
                 android:id="@+id/textView10"
-                android:textSize="15dp"
+                android:textSize="15sp"
                 android:layout_below="@+id/textView3"
                 android:layout_alignParentStart="true"
                 android:layout_marginTop="86dp" />
@@ -133,9 +133,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Magnoliopsida: Flores diclamídeas, simpétalas, ovário súpero, isostêmone, folhas opostas, verticiladas, rosuladas, reduzidas a escamas ou ausentes."
+                android:text="@string/magnoliopsida_flores_diclam_deas_simp_talas_ov_rio_s_pero_isost_mone_folhas_opostas_verticiladas_rosuladas_reduzidas_a_escamas_ou_ausentes"
                 android:id="@+id/textView3"
-                android:textSize="15dp"
+                android:textSize="15sp"
 
 
                 android:layout_below="@+id/textView8"
